@@ -1,12 +1,11 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("background.jpg"); /* Ganti dengan URL gambar latar belakang Anda */
-  background-size: cover;
-  background-repeat: no-repeat;
+.dark-mode {
+  background-color: #ffffff;
+  color: #1D1F2C;
 }
 
+.black{
+  color: black;
+}
 nav {
   background-image: linear-gradient(40deg, #eab825 , #ee9221);
   background-color: #219c90; /* Ganti warna latar belakang menjadi #219c90 */
@@ -25,12 +24,13 @@ nav {
 }
 
 .imglogo{
-  width: 100px;
+  width: 150px;
 }
 
 .option-button {
   float: right;
   margin-right: 20px;
+  margin-left: 20px;
 
 }
 
@@ -88,4 +88,68 @@ nav {
 
 .input:checked+.btn .span {
   color: var(--font-color-light);
+}
+
+.toggle-switch {
+  display: flex;
+  position: fixed;
+  width: 55px;
+  max-height: 25px;
+  --light: #dfe0d8;
+  --dark: #2c2b28;
+  --yellow: #dbb544;
+  left: 20px;
+  top: 100px;
+  z-index: 1;
+}
+
+.switch-label {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  background-color: var(--dark);
+  border-radius: 25px;
+  cursor: pointer;
+  border: 3px solid var(--yellow);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider {
+  background-color: var(--light);
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
+  box-shadow: inset 12px -4px 0px 0px var(--yellow);
+  background-color: var(--ye);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.checkbox:checked ~ .slider::before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+  background-color: var(--yellow);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }

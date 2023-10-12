@@ -1,5 +1,9 @@
 main{
-    padding: 20px;
+  background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
+}
+
+.bg{
+  padding: 20px;
 }
 
 #languages{

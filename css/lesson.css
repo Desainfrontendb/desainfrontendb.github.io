@@ -3,7 +3,8 @@ main{
 }
 
 #languages{
-    padding: 50px 0;
+  margin-top: 20px;
+  padding: 50px 0;
   }
   
   .languages-list{
@@ -21,6 +22,7 @@ main{
   
   .languages img{
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -33,21 +35,25 @@ main{
     border-radius: 10px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -80px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 80px 0;
     text-align: center;
     font-size: 14px;
-    transition: height 0.5s;
+    transition: ease-in-out 0.5s;
   }
   
-  .layer h3{
-    font-weight: 500;
+  .layer h2{
+    font-weight: 750;
     margin-bottom: 20px;
+  }
+
+  .layer h2, p{
+    color: #fff;
   }
   
   .layer a{

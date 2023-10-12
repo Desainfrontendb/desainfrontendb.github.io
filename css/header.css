@@ -40,8 +40,7 @@ nav {
   --bg-color: #fff;
   --main-color: #209c91;
   position: relative;
-  width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   height: 40px;
   background-color: var(--bg-color);
   border: 2px solid var(--main-color);

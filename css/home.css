@@ -15,9 +15,10 @@
 }
 
 .image-banner{
-    height: 50px;
-    width: auto;
+    width: 70%;
+    height: auto;
 }
+
 .about-faras{
     display: flex;
     justify-content: center;

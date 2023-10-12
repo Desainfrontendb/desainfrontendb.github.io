@@ -1,4 +1,4 @@
-.container-banner{
+.container-banner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.banner{
+.banner {
     display: flex;
     background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
     width: 100%;
@@ -15,13 +15,20 @@
     position: relative;
 }
 
-.image-banner{
+.image-banner {
     margin-top: 150px;
     width: 70%;
     height: auto;
 }
 
-.about-faras{
+.intro {
+    margin-top: -1px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.about-faras {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +43,8 @@
 .desc {
     font-weight: normal;
 }
-.container-about{
+
+.container-about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,10 +53,11 @@
     padding: 20px;
 }
 
-.logo-about{
+.logo-about {
     display: flex;
 }
-.banner-about{
+
+.banner-about {
     display: flex;
     background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
     max-width: 75%;
@@ -58,7 +67,7 @@
     font-family: 'Popins', sans-serif;
 }
 
-.information{
+.information {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,17 +76,17 @@
     padding: 20px;
 }
 
-.container-information{
+.container-information {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -20px;
     flex-direction: column;
     padding: 20px;
-    
+
 }
 
-.about-lesson{
+.about-lesson {
     display: flex;
     background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
     max-width: 30%;
@@ -92,7 +101,7 @@
     margin-top: -30px;
 }
 
-.image-lesson{
+.image-lesson {
     min-width: 50%;
     max-width: 50%;
     height: 150px;
@@ -101,15 +110,15 @@
     border-radius: 20px;
 }
 
-.button-start{
+.button-start {
     background-color: #eab825;
     width: 100%;
     height: 50px;
     border-radius: 10px;
     font-size: 16px;
-    
+
 }
 
-.button-start:hover{
+.button-start:hover {
     background-color: yellow;
 }

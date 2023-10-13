@@ -142,7 +142,7 @@
     background-image: linear-gradient(180deg, #8be5d3, #dbb450);
     flex-direction: column;
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     border-radius: 10px;
 }
 

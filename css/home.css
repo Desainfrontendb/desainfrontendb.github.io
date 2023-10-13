@@ -80,6 +80,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -20px;
+    margin-bottom: 20px;
     flex-direction: column;
     padding: 20px;
 
@@ -99,6 +100,7 @@
     padding-bottom: 20px;
     font-family: 'Popins', sans-serif;
     margin-top: -30px;
+    margin-bottom: 40px;
 }
 
 .list-lesson {
@@ -127,9 +129,72 @@
     font-weight: 600;
     --main-color: #bfea25;
     box-shadow: 8px 8px var(--main-color);
-
 }
 
 .button-start:hover {
     background-color: yellow;
+}
+
+.banner2{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: linear-gradient(180deg, #8be5d3, #dbb450);
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.colorful-form {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    background-image: linear-gradient(135deg, #168781, #8be5d3);
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    margin-left: -10px;
+    color: #333;
+    border-radius: 5px;
+
+}
+
+textarea.form-input {
+    height: 100px;
+}
+
+.form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1b8782;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #8fe1d2;
+    color: #000;
 }
